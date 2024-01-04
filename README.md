@@ -1469,7 +1469,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-44. ### Is lazy function supports named exports?
+44. ### Does lazy function supports named exports?
 
     No, currently `React.lazy` function supports default exports only. If you would like to import modules which are named exports, you can create an intermediate module that reexports it as the default. It also ensures that tree shaking keeps working and don’t pull unused components.
     Let's take a component file which exports multiple named components,
